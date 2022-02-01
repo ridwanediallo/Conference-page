@@ -87,6 +87,7 @@ p {
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
+  color: #272a31;
   transition: all 0.3s;
   font-size: 40px;
 }
@@ -147,13 +148,9 @@ header {
   font-size: 16px;
 }
 
-.date{
+.date {
   text-transform: uppercase;
   font-size: 30px;
-}
-
-.place{
-
 }
 
 /* SECTION MAIN PROGRAM */
@@ -210,14 +207,12 @@ header {
   margin: 30px 40px;
 }
 
-
-
 /* SPEAKERS */
 
 .speakers {
-display: flex;
-flex-direction: column;
-margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
 }
 
 .speaker {
@@ -233,23 +228,23 @@ margin: 0 20px;
 }
 
 .parent-img {
- position: relative;
+  position: relative;
 }
 
 .speaker-img {
- width: 100%;
+  width: 100%;
 }
 
 .occupation {
- color: #ec5242;
- padding: 0 0 10px 0;
+  color: #ec5242;
+  padding: 0 0 10px 0;
 }
 
 .about {
   font-size: 12px;
 }
 
-.chess-bg{
+.chess-bg {
   width: 100px;
   height: 100px;
 }
@@ -262,20 +257,63 @@ margin: 0 20px;
   margin-bottom: 20px;
 }
 
-.arrow-down{
+.arrow-down {
   padding-left: 10px;
   color: #ec5242;
   font-size: 24px;
 }
 
-.bar-speaker{
+.bar-speaker {
   border: 1px solid #d3d3d3;
   width: 24px;
   margin: 10px 0;
 }
 
-.position{
+.position {
   position: absolute;
   top: 20px;
   left: 20px;
+}
+
+/* MEDIA QUERIES*/
+
+@media (max-width: 768px) {
+  .desktop-header {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-btn {
+    display: none;
+  }
+
+  .desktop-header {
+    background-color: #fff;
+    padding: 15px 0;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+
+  .desktop-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .desktop-nav-list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+  }
+
+  .desktop-nav-link {
+    text-decoration: none;
+    color: #272a31;
+    font-size: 16px;
+    font-family: 'COCOGOOSE', sans-serif;
+  }
 }
