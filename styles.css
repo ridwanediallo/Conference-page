@@ -311,6 +311,11 @@ header {
     list-style: none;
   }
 
+  .last-link {
+    padding: 5px 10px;
+    border: 5px solid #ec5242;
+  }
+
   .desktop-nav-link {
     text-decoration: none;
     color: #272a31;
