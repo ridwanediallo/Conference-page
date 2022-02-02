@@ -186,13 +186,16 @@ header {
 
 .program {
   display: flex;
-  /* grid-template-columns: auto 1fr 2fr; */
   justify-content: center;
   align-items: center;
   gap: 10px;
   background-color: rgb(211, 211, 211, 0.1);
-  margin: 10px 20px;
-  padding: 10px;
+  margin: 10px 2px;
+  padding: 20px;
+}
+
+.second-last {
+  border: 2px solid #fff;
 }
 
 .icon-main {
@@ -356,6 +359,11 @@ header {
     color: #d3d3d3;
   }
 
+  .descrpt-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
   /* MAIN PROGRAM */
 
   .programs {
@@ -369,7 +377,20 @@ header {
     width: 150px;
     display: flex;
     flex-direction: column;
-    padding: 30px 10px;
+  }
+
+  .main-program-title {
+    font-size: 30px;
+  }
+  .main-program .inner-title {
+    font-size: 18px;
+  }
+  .main-program .text {
+    font-size: 14px;
+  }
+  .icon-main {
+    width: 50px;
+    height: 50px;
   }
 
   /* SPEAKER SECTION */
@@ -379,11 +400,14 @@ header {
     margin: 0 157px;
   }
 
+  .speaker{
+    gap: 30px;
+  }
   .speakers-grid {
     align-self: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    column-gap: 60px;
   }
 
   .speaker-title {
@@ -410,20 +434,22 @@ header {
 
   .hole-program a {
     color: #fff;
+    font-size: 20px;
   }
 
- .btn-more {
-   display: none;
- }
+  .btn-more {
+    display: none;
+  }
 
   .partners {
     text-align: center;
     background-color: #272a31;
     color: #d3d3d3;
-    padding:80px 0;
+    padding: 80px 0;
   }
 
   .partner-title {
+    font-size: 30px;
   }
 
   .partners-logos {
@@ -434,5 +460,18 @@ header {
 
   .partner {
     font-size: 24px;
+  }
+
+  .desktop-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 80px 0;
+    background-color: #d3d3d3;
+  }
+
+  .main-program-bar {
+    margin-bottom: 20px;
   }
 }
