@@ -16,6 +16,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  list-style: none;
+  text-decoration: none;
   font-family: 'Lato', sans-serif;
 }
 
@@ -246,7 +248,7 @@ header {
 
 .chess-bg {
   width: 100px;
-  height: 100px;
+  height: auto;
 }
 
 .btn-more {
@@ -283,6 +285,10 @@ header {
   }
 
   .top-desktop-header {
+    display: none;
+  }
+
+  .hole-program {
     display: none;
   }
 }
@@ -356,6 +362,7 @@ header {
     display: flex;
     justify-content: center;
     margin: 20px 0;
+    padding: 50px 0;
   }
 
   .program {
@@ -367,8 +374,65 @@ header {
 
   /* SPEAKER SECTION */
 
+  .speakers {
+    justify-content: center;
+    margin: 0 157px;
+  }
+
   .speakers-grid {
+    align-self: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 60px;
+  }
+
+  .speaker-title {
+    font-size: 30px;
+  }
+
+  .name {
+    font-size: 24px;
+  }
+  .occupation {
+    font-size: 20px;
+  }
+  .about {
+    font-size: 18px;
+  }
+
+  .main-btn {
+    display: none;
+  }
+
+  .hole-program {
+    padding-bottom: 50px;
+  }
+
+  .hole-program a {
+    color: #fff;
+  }
+
+ .btn-more {
+   display: none;
+ }
+
+  .partners {
+    text-align: center;
+    background-color: #272a31;
+    color: #d3d3d3;
+    padding:80px 0;
+  }
+
+  .partner-title {
+  }
+
+  .partners-logos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .partner {
+    font-size: 24px;
   }
 }
