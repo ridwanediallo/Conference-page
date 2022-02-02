@@ -183,8 +183,8 @@ header {
 }
 
 .program {
-  display: grid;
-  grid-template-columns: auto 1fr 2fr;
+  display: flex;
+  /* grid-template-columns: auto 1fr 2fr; */
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -281,6 +281,10 @@ header {
   .desktop-header {
     display: none;
   }
+
+  .top-desktop-header {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
@@ -344,5 +348,24 @@ header {
   .top-desk-nav-link {
     text-decoration: none;
     color: #d3d3d3;
+  }
+
+  /* MAIN PROGRAM */
+
+  .programs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  .program {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row: 1; */
+    padding: 30px 10px;
+    /* margin: 0 10px 0 10px; */
   }
 }
