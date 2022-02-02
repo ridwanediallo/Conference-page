@@ -257,6 +257,9 @@ header {
   margin-bottom: 20px;
 }
 
+
+
+
 .arrow-down {
   padding-left: 10px;
   color: #ec5242;
@@ -270,9 +273,9 @@ header {
 }
 
 .position {
-  position: absolute;
-  top: 20px;
-  left: 20px;
+  position: relative;
+  top: -90px;
+  left: 13px;
 }
 
 /* MEDIA QUERIES*/
