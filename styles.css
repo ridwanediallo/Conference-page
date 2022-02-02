@@ -257,9 +257,6 @@ header {
   margin-bottom: 20px;
 }
 
-
-
-
 .arrow-down {
   padding-left: 10px;
   color: #ec5242;
@@ -292,7 +289,7 @@ header {
   }
 
   .desktop-header {
-    background-color: #fff;
+    background-color: #d3d3d3;
     padding: 15px 0;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   }
@@ -324,5 +321,28 @@ header {
     color: #272a31;
     font-size: 16px;
     font-family: 'COCOGOOSE', sans-serif;
+  }
+
+  /* TOP HEADER */
+
+  .top-desktop-header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #272a31;
+  }
+
+  .top-desk-nav {
+    margin-right: 157px;
+  }
+
+  .top-desk-nav-list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+  }
+
+  .top-desk-nav-link {
+    text-decoration: none;
+    color: #d3d3d3;
   }
 }
