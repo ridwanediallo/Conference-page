@@ -296,9 +296,21 @@ header {
   .hole-program {
     display: none;
   }
+
+  .partners {
+    display: none;
+  }
+
+  .desktop-footer {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
+   .logo {
+  height: 80px;
+}
+
   .mobile-btn {
     display: none;
   }
