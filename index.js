@@ -1,10 +1,16 @@
 const mobileBtn = document.querySelector('.mobile-btn');
 const header = document.querySelector('.header');
+const mobileLinks = document.querySelectorAll('.main-nav-link');
 
 mobileBtn.addEventListener('click', () => {
-    header.classList.toggle('nav-open')
-})
+  header.classList.toggle('nav-open');
+});
 
+mobileLinks.forEach((link) => {
+  link.addEventListener('click', () => {
+    header.classList.remove('nav-open');
+  });
+});
 
 // LOAD SPEAKERS DATA DYNAMICLY
 
@@ -67,7 +73,7 @@ const speakersData = [
 ];
 
 for (let i = 0; i < speakersData.length; i += 1) {
-    speakers.innerHTML = `${speakers.innerHTML}
+  speakers.innerHTML = `${speakers.innerHTML}
        <div class="speaker">
             <div class="parent-img">
               <img class="chess-bg" src="${speakersData[i].bgImage}" alt="chees" />
