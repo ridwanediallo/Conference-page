@@ -40,7 +40,7 @@ p {
 
 .header::after {
   content: '';
-  background: url(images/header-bg.jpg);
+  background-image: url(images/header-bg.jpg);
   background-size: cover;
   opacity: 0.5;
   top: 0;
@@ -130,7 +130,7 @@ header {
 .hero {
   display: flex;
   justify-content: center;
-  height: 90vh;
+  height: 80vh;
   font-family: 'COCOGOOSE', sans-serif;
 }
 
@@ -188,7 +188,7 @@ header {
 
 .program {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   gap: 10px;
   background-color: rgb(211, 211, 211, 0.1);
@@ -352,6 +352,17 @@ header {
 
   /* TOP HEADER */
 
+.hero  {
+  background-image: url("images/header-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.container{
+  max-width: 100%;
+}
+
   .top-desktop-header {
     display: flex;
     justify-content: flex-end;
@@ -489,3 +500,5 @@ header {
     margin-bottom: 20px;
   }
 }
+
+
