@@ -315,7 +315,7 @@ p {
   }
 
   .desktop-header {
-    background-color: #d3d3d3;
+    background-color: #fff;
     padding: 15px 0;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   }
@@ -492,7 +492,7 @@ p {
     align-items: center;
     gap: 50px;
     padding: 80px 0;
-    background-color: #d3d3d3;
+    background-color: #fff;
   }
 
   .main-program-bar {
