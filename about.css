@@ -363,7 +363,7 @@ p {
   }
 
   .desktop-header {
-    background-color: #d3d3d3;
+    background-color: #fff;
     padding: 5px 0;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   }
@@ -468,7 +468,7 @@ p {
   }
 
   .desktop-footer {
-    background-color: #d3d3d3;
+    background-color: #fff;
     justify-content: space-around;
     color: #272a31;
   }
