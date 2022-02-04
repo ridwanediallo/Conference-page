@@ -1,9 +1,3 @@
-/* COLORS */
-#272A31
-#EC5242
-#D3D3D3
-/* COLORS */
-/* font-family: 'COCOGOOSE', sans-serif; */
 html {
   overflow-x: hidden;
 }
@@ -27,6 +21,10 @@ h3 {
 
 p {
   margin: 0;
+}
+
+ul {
+  list-style: none;
 }
 
 .header {
@@ -54,7 +52,7 @@ p {
 }
 
 .main-nav {
-  background-color: #d3d3d3;
+  background-color: #d3d3d3da;
   position: absolute;
   top: 0;
   left: 0;
@@ -89,7 +87,7 @@ p {
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #272a31;
+  color: #ec5242;
   transition: all 0.3s;
   font-size: 40px;
 }
@@ -120,11 +118,6 @@ p {
 
 /* MOBILE HERO */
 
-/* header {
-  background-image: url('images/header-bg.jpg');
-  background: no-repeat;
-} */
-
 .hero {
   position: relative;
   display: flex;
@@ -136,6 +129,11 @@ p {
 
 .hero-content {
   margin: 0 20px;
+}
+
+.container-hero {
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 .title {
