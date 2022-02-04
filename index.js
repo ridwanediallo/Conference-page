@@ -58,7 +58,7 @@ const speakersData = [
     name: 'Luc Van Kampen',
     image: 'images/img-5.png',
     occupation: 'Passwordless with Web3 and React',
-    about: ` Luc, also known as Lucemans, is a passionate creator focused on "creating epic experiences" and getting rid of passwords forever......`,
+    about: ` Luc, also known as Lucemans, is a passionate creator focused on creating epic experiences and getting rid of passwords forever......`,
     bgImage: 'images/chess.jpg',
   },
   {
