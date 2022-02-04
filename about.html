@@ -18,15 +18,15 @@
     <header class="header">
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <il><a class="main-nav-link" href="about.html">About</a></il>
-          <il><a class="main-nav-link" href="#">Program</a></il>
-          <il><a class="main-nav-link" href="#">Join</a></il>
-          <il><a class="main-nav-link" href="#">Sponsor</a></il>
-          <il><a class="main-nav-link" href="#">News</a></il>
-          <il><a class="main-nav-link" href="#">Compain</a></il>
+          <li><a class="main-nav-link" href="about.html">About</a></li>
+          <li><a class="main-nav-link" href="#">Program</a></li>
+          <li><a class="main-nav-link" href="#">Join</a></li>
+          <li><a class="main-nav-link" href="#">Sponsor</a></li>
+          <li><a class="main-nav-link" href="#">News</a></li>
+          <li><a class="main-nav-link" href="#">Compain</a></li>
         </ul>
       </nav>
-      <button class="mobile-btn">
+      <button type="button" class="mobile-btn">
         <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
         <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
       </button>
@@ -53,20 +53,20 @@
     </header>
 
     <header class="desktop-header">
-      <nav class="desktop-nav">
+      <nav class="desktop-nav container">
         <a href="index.html"
           ><img class="logo" src="images/Logo.png" alt="logo"
         /></a>
         <ul class="desktop-nav-list">
-          <il><a class="desktop-nav-link" href="about.html">About</a></il>
-          <il><a class="desktop-nav-link" href="#">Program</a></il>
-          <il><a class="desktop-nav-link" href="#">Join</a></il>
-          <il><a class="desktop-nav-link last-link" href="#">Compain</a></il>
+          <li><a class="desktop-nav-link" href="about.html">About</a></li>
+          <li><a class="desktop-nav-link" href="#">Program</a></li>
+          <li><a class="desktop-nav-link" href="#">Join</a></li>
+          <li><a class="desktop-nav-link last-link" href="#">Compain</a></li>
         </ul>
       </nav>
     </header>
 
-    <section class="hero container">
+    <section class="hero">
       <div class="hero-content">
         <h2 class="title">React conference 2022</h2>
         <hr class="main-program-bar" />
@@ -125,21 +125,18 @@
         Take a look at the React Conference that took place in Buenos Aires and
         in Warsaw.
       </p>
-      <div class="two-images">
+      <div class="two-images container">
         <div class="image-one">
           <div class="overlay">
-             <p>2013</p>
-          <p>React Conference in Buenos Aires</p>
+            <p>2013</p>
+            <p>React Conference in Buenos Aires</p>
           </div>
-
-          <!-- <img class="one-image" src="images/about-1.jpg" alt="" /> -->
         </div>
         <div class="image-two">
           <div class="overlay">
-          <p>2011</p>
-          <p>React Conference in London</p>
+            <p>2011</p>
+            <p>React Conference in London</p>
           </div>
-          <!-- <img class="one-image" src="images/about-2.jpg" alt="" /> -->
         </div>
       </div>
     </section>
@@ -156,6 +153,14 @@
       </div>
     </section>
 
+  <footer class="desktop-footer">
+    <a href="index.html"
+      ><img class="logo no-mobile" src="images/Logo.png" alt="logo"
+    /></a>
+    <p class="copyright">&copy; Ridwan 2022</p>
+  </footer>
+
+
     <script src="index.js"></script>
 
     <script
@@ -167,11 +172,4 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
   </body>
-
-  <footer class="desktop-footer">
-    <a href="index.html"
-      ><img class="logo no-mobile" src="images/Logo.png" alt="logo"
-    /></a>
-    <p class="copyright">&copy; Ridwan 2022</p>
-  </footer>
 </html>

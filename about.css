@@ -3,9 +3,7 @@
 #EC5242
 #D3D3D3
 /* COLORS */
-
 /* font-family: 'COCOGOOSE', sans-serif; */
-
 html {
   overflow-x: hidden;
 }
@@ -33,8 +31,13 @@ p {
 
 .header {
   display: flex;
+  position: absolute;
   justify-content: space-between;
   align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
 }
 
 .main-nav {
@@ -109,8 +112,22 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 90vh;
+  min-height: 90vh;
+  position: relative;
   font-family: 'COCOGOOSE', sans-serif;
+}
+
+.hero::after {
+  content: '';
+  background-image: url('images/header-bg.jpg');
+  background-size: cover;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 .hero-content {
@@ -191,7 +208,7 @@ p {
 }
 
 @media (max-width: 768px) {
-  .header::after {
+  /* .header::after {
     content: '';
     background: url(images/header-bg.jpg);
     background-size: cover;
@@ -202,7 +219,7 @@ p {
     right: 0;
     position: absolute;
     z-index: -1;
-  }
+  } */
 
   .desktop-header {
     display: none;
@@ -286,9 +303,9 @@ p {
   justify-content: center;
   align-items: center;
   background-image: url(images/about-1.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 450px;
+  width: 100%;
   height: 250px;
   color: #fff;
 }
@@ -299,9 +316,9 @@ p {
   justify-content: center;
   align-items: center;
   background-image: url(images/about-2.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 450px;
+  width: 100%;
   height: 250px;
   color: #fff;
 }
@@ -309,6 +326,7 @@ p {
 .image-one p {
   font-size: 24px;
 }
+
 .image-two p {
   font-size: 24px;
 }
@@ -317,8 +335,6 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  display: flex;
   align-items: center;
   background-color: #ec524280;
   width: 100%;
@@ -331,18 +347,19 @@ p {
   }
 
   .hero {
-    background-image: url('images/about-bg.png');
+    /* background-image: url('images/about-bg.png'); */
+
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
   }
 
+  .hero::after {
+    background-image: url('images/about-bg.png');
+  }
+
   .hero-content {
     padding: 0 20px 0 100px;
-  }
-  
-  .container {
-    max-width: 100%;
   }
 
   .desktop-header {
