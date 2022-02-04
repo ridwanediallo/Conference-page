@@ -4,8 +4,8 @@
 
 > React Conference 2022 is an unreal event just for the porpuse of learning.
 
-![screenshot](Conference-page\images\screen-desk.PNG)
-![screenshot](Conference-page\images\screen-mob.PNG)
+![screenshot](./images/screen-desk.PNG)
+![screenshot](./images/screen-mob.PNG)
 
 ## Built With
 
