@@ -337,6 +337,10 @@ p {
     width: 100%;
   }
 
+  .hero-content {
+    padding: 0 20px 0 100px;
+  }
+  
   .container {
     max-width: 100%;
   }
