@@ -31,7 +31,7 @@ p {
 
 .header {
   display: flex;
-  position: absolute;
+  position: fixed;
   justify-content: space-between;
   align-items: center;
   top: 0;
@@ -42,7 +42,7 @@ p {
 
 .main-nav {
   background-color: #fff;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -88,6 +88,7 @@ p {
 }
 
 .mobile-nav-icon {
+  background-color: #fff;
   height: 50px;
   width: 50px;
   color: #272a31;
@@ -208,19 +209,6 @@ p {
 }
 
 @media (max-width: 768px) {
-  /* .header::after {
-    content: '';
-    background: url(images/header-bg.jpg);
-    background-size: cover;
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-  } */
-
   .desktop-header {
     display: none;
   }

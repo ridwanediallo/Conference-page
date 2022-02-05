@@ -52,8 +52,8 @@ ul {
 }
 
 .main-nav {
-  background-color: #d3d3d3da;
-  position: absolute;
+  background-color: #fff;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -99,6 +99,7 @@ ul {
 }
 
 .mobile-nav-icon {
+  background-color: #fff;
   height: 50px;
   width: 50px;
   color: #272a31;
@@ -144,7 +145,8 @@ ul {
 }
 
 .description {
-  border: 2px solid #fff;
+  border: 2px solid #272a31;
+  background-color: #fff;
   padding: 20px;
   margin: 40px 0;
   font-size: 16px;
