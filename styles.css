@@ -29,7 +29,7 @@ ul {
 
 .header {
   display: flex;
-  position: absolute;
+  position: fixed;
   justify-content: space-between;
   align-items: center;
   top: 0;
@@ -87,7 +87,7 @@ ul {
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #ec5242;
+  color: #272a31;
   transition: all 0.3s;
   font-size: 40px;
 }
