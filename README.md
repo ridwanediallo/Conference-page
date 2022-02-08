@@ -19,7 +19,7 @@ This is a simple static website of two pages a home and an about page, made with
 
 ## Live Demo
 
-[Live Demo Link](https://ridwanediallo.github.io/Conference-page/)
+[Live Demo Link]( https://ridwanediallo.github.io/Conference-page/)
 
 ## Authors
 
